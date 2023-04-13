@@ -10,7 +10,7 @@ import transactions from '../data/transactions.json';
 export default function App() {
   return (
     <div>
-<section>
+      <section>
         <Profile
           username={user.username}
           tag={user.tag}
@@ -18,20 +18,19 @@ export default function App() {
           avatar={user.avatar}
           stats={user.stats}
         />
-</section>
+      </section>
 
-<section>
+      <section>
         <Statistics title="Upload stats" stats={Stats} />
-</section>
+      </section>
 
-
-<section>
+      <section>
         <FriendList friends={friends} />
-</section>
+      </section>
 
-<section>
+      <section>
         <Transactions transactions={transactions} />
-</section>
+      </section>
     </div>
   );
 }
