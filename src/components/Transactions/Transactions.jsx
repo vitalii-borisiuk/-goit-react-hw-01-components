@@ -31,6 +31,6 @@ Transactions.prototype = {
       type: PropTypes.string,
       amount: PropTypes.string,
       currency: PropTypes.string,
-    })
+    }),
   ).isRequired,
 };

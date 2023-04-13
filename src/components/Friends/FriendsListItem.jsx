@@ -16,5 +16,3 @@ FriendsListItem.prototype = {
   avatar: PropTypes.string,
   name: PropTypes.string,
 };
-
- 

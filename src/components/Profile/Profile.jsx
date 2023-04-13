@@ -2,7 +2,7 @@ import PropTypes from 'prop-type';
 import css from './Profile.module.css';
 
 export default function Profile({
-  username = "User Name",
+  username = 'User Name',
   tag,
   location,
   avatar,
